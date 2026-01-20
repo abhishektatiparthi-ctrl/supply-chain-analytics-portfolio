@@ -1,1 +1,53 @@
+# CITY Table – Basic SQL Filtering Queries
+
+This document contains basic SQL queries performed on the CITY table.
+These exercises focus on filtering data using WHERE conditions and
+selecting required columns.
+
+---
+
+## Problem 1: American cities with population > 100,000
+
+SQL Query:
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE = 'USA'
+  AND POPULATION > 100000;
+
+---
+
+## Problem 2: Names of American cities with population > 120,000
+
+SQL Query:
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE = 'USA'
+  AND POPULATION > 120000;
+
+---
+
+## Problem 3: City with a specific ID
+
+SQL Query:
+SELECT *
+FROM CITY
+WHERE ID = 1661;
+
+---
+
+## Problem 4: All Japanese cities (all attributes)
+
+SQL Query:
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';
+
+---
+
+## Problem 5: Names of all Japanese cities
+
+SQL Query:
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';
 
