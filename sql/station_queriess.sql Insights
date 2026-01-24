@@ -1,0 +1,51 @@
+# SQL Practice – STATION Table (HackerRank)
+
+## 📌 Overview
+This repository contains SQL solutions to 11 practice problems based on the **STATION** table from HackerRank.  
+The objective of this exercise is to strengthen foundational SQL skills such as filtering, sorting, aggregation, and logical conditions.
+
+---
+
+## 📊 Dataset: STATION
+The STATION table includes geographic data such as:
+- ID
+- CITY
+- STATE
+- LAT_N (Latitude)
+- LONG_W (Longitude)
+
+---
+
+## 🧠 Key SQL Concepts Practiced
+
+- `SELECT` statements
+- `WHERE` filtering
+- Pattern matching using `LIKE`
+- Handling duplicates using `DISTINCT`
+- Logical conditions using `AND` / `OR`
+- Sorting results using `ORDER BY`
+- Aggregate functions (`COUNT`, `COUNT DISTINCT`)
+- Limiting results using `LIMIT`
+- Writing clean, readable SQL with comments
+
+---
+
+## 📁 Files Included
+
+- `station_queries.sql`  
+  Contains all 11 SQL problems with:
+  - Problem description as comments
+  - Corresponding SQL solution
+  - Clean and readable formatting
+
+---
+
+## 🎯 Learning Outcomes
+
+- Improved ability to translate problem statements into SQL queries
+- Better understanding of data filtering and cleansing
+- Hands-on experience with real-world query logic
+- Foundation for advanced SQL topics such as joins and subqueries
+
+
+
